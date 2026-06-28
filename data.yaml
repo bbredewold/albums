@@ -9,8 +9,11 @@
 
 artists:
   - name: Sons of Korah
+    note: the Psalms sung almost word for word
   - name: Eefje de Visser
+    note: Dutch lyrics over warm, glowing electronics
 
 albums:
   - name: Moon Safari
     artist: Air
+    year: 1998
