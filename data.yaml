@@ -6,6 +6,10 @@
 #   albums  -> artist, year, img
 # Images live in img/ and are referenced by relative path (e.g. img/kida.jpg).
 # When img is missing or fails to load, the page shows an initials tile instead.
+#
+# `updated` shows in the footer. Bump it (YYYY-MM-DD) when you re-rank.
+
+updated: 2026-06-28
 
 artists:
   - name: Sons of Korah

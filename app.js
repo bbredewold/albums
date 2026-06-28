@@ -92,6 +92,25 @@
     return li;
   }
 
+  // "2026-06-28" -> "June 28, 2026" (no timezone shift). Bad/missing input -> "".
+  function formatUpdated(value) {
+    if (!value) return "";
+    var m = String(value).match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return "";
+    var months = ["January","February","March","April","May","June",
+      "July","August","September","October","November","December"];
+    var month = months[parseInt(m[2], 10) - 1];
+    if (!month) return "";
+    return month + " " + parseInt(m[3], 10) + ", " + m[1];
+  }
+
+  function renderUpdated(value) {
+    var el = document.getElementById("updated");
+    if (!el) return;
+    var pretty = formatUpdated(value);
+    el.textContent = pretty ? "  ·  Updated " + pretty : "";
+  }
+
   function renderList(listId, countId, items, kind) {
     var ul = document.getElementById(listId);
     ul.innerHTML = "";
@@ -112,6 +131,7 @@
       var data = window.jsyaml.load(txt) || {};
       renderList("artists", "artistsCount", data.artists, "artist");
       renderList("albums", "albumsCount", data.albums, "album");
+      renderUpdated(data.updated);
     })
     .catch(function (err) {
       var wrap = document.querySelector(".columns");
