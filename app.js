@@ -87,7 +87,7 @@
     }
 
     li.appendChild(rank);
-    li.appendChild(buildTile(entry));
+    if (kind === "album") li.appendChild(buildTile(entry));
     li.appendChild(text);
     return li;
   }

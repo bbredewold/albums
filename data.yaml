@@ -2,7 +2,7 @@
 #
 # ORDER = RANK. The top entry is the favorite; move lines up or down to re-rank.
 # Only `name` is required. Everything else is optional:
-#   artists -> note (a short one-liner), img
+#   artists -> note (a short one-liner)          # artists are text-only, no cover
 #   albums  -> artist, year, img
 # Images live in img/ and are referenced by relative path (e.g. img/kida.jpg).
 # When img is missing or fails to load, the page shows an initials tile instead.
