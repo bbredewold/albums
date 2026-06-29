@@ -9,7 +9,7 @@
 #
 # `updated` shows in the footer. Bump it (YYYY-MM-DD) when you re-rank.
 
-updated: 2026-06-28
+updated: 2026-06-29
 
 artists:
   - name: Sons of Korah
@@ -22,3 +22,23 @@ albums:
     artist: Air
     year: 1998
     img: img/air-moon-safari.webp
+  - name: Living Room Songs
+    artist: Ólafur Arnalds
+    year: 2011
+    img: img/living-room-songs-olafur-arnalds.jpg
+  - name: Zion
+    artist: Hillsong United
+    year: 2013
+    img: img/zion-hillsong-united.jpg
+  - name: Oktober
+    artist: Bløf
+    year: 2008
+    img: img/oktober-blof.jpg
+  - name: Roots
+    artist: Half a Mile
+    year: 2016
+    img: img/roots-half-a-mile.jpg
+  - name: Brother to Brother
+    artist: Michael Card & John Michael Talbot
+    year: 1996
+    img: img/brother-to-brother-michael-card.jpg
