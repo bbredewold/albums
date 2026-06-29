@@ -18,7 +18,7 @@ artists:
     note: Dutch lyrics over warm, glowing electronics
   - name: Bruit ≤
   - name: Hillsong United
-  - name: Bløf
+  - name: BLØF
 
 albums:
   - name: Moon Safari
@@ -34,7 +34,7 @@ albums:
     year: 2013
     img: img/zion-hillsong-united.jpg
   - name: Oktober
-    artist: Bløf
+    artist: BLØF
     year: 2008
     img: img/oktober-blof.jpg
   - name: Roots
