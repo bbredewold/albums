@@ -42,3 +42,19 @@ albums:
     artist: Michael Card & John Michael Talbot
     year: 1996
     img: img/brother-to-brother-michael-card.jpg
+  - name: Origin of Symmetry
+    artist: Muse
+    year: 2001
+    img: img/origin-of-symmetry-muse.jpg
+  - name: Heimwee
+    artist: Eefje de Visser
+    year: 2024
+    img: img/heimwee-eefje-de-visser.jpg
+  - name: Vlijmscherp
+    artist: Eefje de Visser
+    year: 2025
+    img: img/vlijfscherp-eefje-de-visser.jpg
+  - name: The Machine is Burning and Now Everyone Knows It Could Happen Again
+    artist: Bruit ≤
+    year: 2021
+    img: img/the-machine-is-burning-bruit.jpg
