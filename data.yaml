@@ -58,3 +58,7 @@ albums:
     artist: Bruit ≤
     year: 2021
     img: img/the-machine-is-burning-bruit.jpg
+  - name: Nest
+    artist: Brutus
+    year: 2019
+    img: img/nest-brutus.jpg
